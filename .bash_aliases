@@ -1,0 +1,5 @@
+alias vim='nvim'
+alias sv='sudo nvim'
+alias ll='exa --long --no-permissions --octal-permissions --no-time --git --icons --group-directories-first'
+alias ls='exa --icons --group-directories-first'
+alias mkd='mkdir -p'
