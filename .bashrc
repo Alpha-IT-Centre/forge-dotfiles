@@ -9,3 +9,7 @@ if [[ $EUID -ne 0 ]]; then
 else
     export PS1="\[\e[31m\]ROOT\[\e[m\]@\[\e[36m\]\h\[\e[m\]:\[\e[31m\]\w\[\e[m\] \\$ "
 fi
+
+eval "$(zoxide init bash -cmd cd)"
+
+
